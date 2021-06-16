@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Browse</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/170f9fe14d.js" crossorigin="anonymous"></script>
+    <style>
+        .wrapper {
+            min-height: 50vw;
+            display: flex;
+            flex-direction: column;
+        }
+
+        footer {
+            background-color: #333;
+            background-image: url('City1Blur.png');
+            color: white;
+        }
+
+        .sideNavbar {
+            background-color: black;
+            position: fixed;
+            padding-bottom: 100px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            height: 1000px;
+        }
+
+        .content {
+            flex-grow: 1;
+        }
+        .card {
+            text-decoration: none;
+            color:#fff;
+            text-align: center;
+            background-image:url('City1Blur.png');
+        }
+        .dropdown-item{
+            color:#fff;
+        }
+    </style>
+</head>
+
+<body style="background-image:url('City1.jpg');background-color:#000;color:#fff; overflow-x: hidden;background-position: center;background-attachment: fixed;font-family: Times New Roman, Times, serif;font-size:18px;font-variant:small-caps;font-weight:bold">
+    <div class="wrapper">
+        <div class="content">
+            <nav class="navbar sideNavbar ps-1 pe-1 d-none d-sm-block"
+            style="color:#b6b6b6;background-image: url('City1Blur.png');text-align:justify;width:fit-content;">
+            <ul class="navbar-nav"style="list-style-type: none;">
+                <li class="nav-item mt-1">
+                    <a class="nav-link" href="index.html" style="color:#fff">Askme</a>
+                </li>
+                <li class="nav-item mt-2">
+                    <a class="nav-link" href="Browse.html" style="color:#fff">Browse</a>
+                </li>
+                <li class="nav-item mt-2">
+                    <a class="nav-link" href="FeedBack.html" style="color:#fff">Feedback</a>
+                </li>
+                <li class="nav-item mt-2 mb-5">
+                    <a class="nav-link" href="AboutUs.html" style="color:#fff">About</a>
+                </li>
+                <div class=" float-right" style="font-size: 30px;text-align: center;margin-top: 200px;">
+                    <li>
+                        <a href="#" style="color:#fff"><i class="fab fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" style="color:#fff"><i class="fab fa-pinterest-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" style="color:#fff"><i class="fab fa-instagram-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" style="color:#fff"><i class="fab fa-facebook-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" style="color:#fff"><i class="fab fa-twitter-square"></i></a>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+
+
+            <div class="container">
+
+                <div class="container d-block d-sm-none">
+                    <div class="collapse " id="navbarToggleExternalContent">
+                        <div class="navbar bg-dark p-4" style="background-image: url('City1Blur.png');">
+                            <ul class="list-group"style="list-style-type: none;">
+                                <li class="nav-item m-1"><a href="index.html"
+                                        style="text-decoration:none;color:#fff">Home</a>
+                                </li>
+                                <li class="nav-item m-1"><a href="Browse.html"
+                                        style="text-decoration:none;color:#fff">Browse</a>
+                                </li>
+                                <li class="nav-item m-1"><a href="AboutUs.html"
+                                        style="text-decoration:none;color:#fff">About</a>
+                                </li>
+                                <li class="nav-item m-1"><a href="FeedBack.html"
+                                        style="text-decoration:none;color:#fff">Feedback</a>
+                                </li>
+                                <li class="nav-item m-1"><a href="Login.html"
+                                        style="text-decoration:none;color:#fff">log-in
+                                    </a>/
+                                    <a href="Signup.html" style="text-decoration:none;color:#fff">Register </a>
+                                </li>
+                                <li class="mt-2">
+                                    <a href="#" style="color:#fff"><i class="fab fa-linkedin m-1"></i></a>
+
+                                    <a href="#" style="color:#fff"><i class="fab fa-pinterest-square m-1"></i></a>
+
+                                    <a href="#" style="color:#fff"><i class="fab fa-instagram-square m-1"></i></a>
+
+                                    <a href="#" style="color:#fff"><i class="fab fa-facebook-square  m-1"></i></a>
+
+                                    <a href="#" style="color:#fff"><i class="fab fa-twitter-square m-1"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <nav class="navbar navbar-dark bg-dark" style="background-image: url('City1Blur.png');">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarToggleExternalContent"
+                                aria-controls="navbarToggleExternalContent" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                    </nav>
+                </div>
+
+
+
+                <div class="container p-3 m-4">
+                    <div class="row me-3">
+                        
+                        <div class="col">
+                            <div class="dropdown">
+                                <a class="btn btn-secondary dropdown-toggle float-end bordered border-light" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"style="background:transparent">
+                                  Locations
+                                </a>
+                              
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink"style="background-image:url('City1Blur.png');color:#fff">
+                                  <li><a class="dropdown-item" href="#">Andhra Pradesh</a></li>
+                                  <li><a class="dropdown-item" href="#">Arunachal Pradesh</a></li>
+                                  <li><a class="dropdown-item" href="#">Assam</a></li>
+                                  <li><a class="dropdown-item" href="#">Bihar</a></li>
+                                  <li><a class="dropdown-item" href="#">Chhattisgarh</a></li>
+                                  <li><a class="dropdown-item" href="#">Goa</a></li>
+                                  <li><a class="dropdown-item" href="#">Gujarath</a></li>
+                                  <li><a class="dropdown-item" href="#">Haryana</a></li>
+                                  <li><a class="dropdown-item" href="#">Himachal Pradesh</a></li>
+                                  <li><a class="dropdown-item" href="#">Jharkhand</a></li>
+                                  <li><a class="dropdown-item" href="#">Karnataka</a></li>
+                                  <li><a class="dropdown-item" href="#">Kerala</a></li>
+                                  <li><a class="dropdown-item" href="#">Madhya Pradesh</a></li>
+                                  <li><a class="dropdown-item" href="#">Maharashtra</a></li>
+                                  <li><a class="dropdown-item" href="#">Manipur</a></li>
+                                  <li><a class="dropdown-item" href="#">Meghalaya</a></li>
+                                  <li><a class="dropdown-item" href="#">Mizoram</a></li>
+                                  <li><a class="dropdown-item" href="#">Nagaland</a></li>
+                                  <li><a class="dropdown-item" href="#">Odisha</a></li>
+                                  <li><a class="dropdown-item" href="#">Punjab</a></li>
+                                  <li><a class="dropdown-item" href="#">Rajasthan</a></li>
+                                  <li><a class="dropdown-item" href="#">Sikkim</a></li>
+                                  <li><a class="dropdown-item" href="#">Tamil Nadu</a></li>
+                                  <li><a class="dropdown-item" href="#">Telangana</a></li>
+                                  <li><a class="dropdown-item" href="#">Tripura</a></li>
+                                  <li><a class="dropdown-item" href="#">Uttar Pradesh</a></li>
+                                  <li><a class="dropdown-item" href="#">Uttarakhand</a></li>
+                                  <li><a class="dropdown-item" href="#">West Bengal</a></li>
+                                 
+                                </ul>
+                              </div>
+                        </div>
+                        <div class="col">
+                            <div class="row g-1">
+                                <div class="col">
+                                    <input type="search" class="bordered border-light form-control" placeholder="Find Category"
+                                    style="background:transparent;color:#fff">
+                                </div>
+                                <div class="col">
+                                    <span class="input-group-addon"><i class="fas fa-search  btn btn-lg bordered border-light"
+                                        style="color:#fff;background:transparent"></i></span>
+                                </div>
+                            </div>
+                           
+                           
+                                    
+                        </div>
+                    </div>
+
+                </div>
+
+
+                
+                <div class="" style="background-color:#000;background:transparent;">
+                    <div class="row m-2 p-2">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Acountant & Auditors</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Beauty Salons</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Computer Hardware & Software</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Chemical, Dyes & Solvents</a>
+                        </div>
+                    </div>
+                    <div class="row m-2 p-2">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Law & Legal</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Web & Internet</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Schools, Colleges and University</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Transportation & Logistics.</a>
+                        </div>
+                    </div>
+                    <div class="row m-2 p-2">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Agriculture & Food Products</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Apparel & Clothings</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Fashion Accessories</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Home Furnishings</a>
+                        </div>
+                    </div>
+                    <div class="row m-2 p-2">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Machines & Equipments</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Astrology & Horoscope</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Rental Services</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Photographers & Videographers</a>
+                        </div>
+                    </div>
+                    <div class="row m-2 p-2">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Builders, Developers & Contrae</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Banking & Finance</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Job & Employment</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Manufactures & Exporters</a>
+                        </div>
+                    </div>
+                    <div class="row m-2 p-2">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Agriculture & Farming Services</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Ayurvedic & Herbal</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Consumer Electronics</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Furnitures</a>
+                        </div>
+                    </div>
+                    <div class="row m-2 p-2">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Industrial Plants & Machinery</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Marbel, Granite & Natural Stone.</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Real Estate & Property</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Printing & Publishing Service</a>
+                        </div>
+                    </div>
+                    <div class="row m-2 p-2">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Industry</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Restaurants</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Hospitals, Doctors Clinic & Medicine</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Carpentres & Joiners</a>
+                        </div>
+                    </div>
+                    <div class="row m-2 p-2">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Tour & Travels</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Media & Advertising</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Automoblie Parts & Spares</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Electronics & Electrical</a>
+                        </div>
+                    </div>
+                    <div class="row m-2 p-2">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Gifts</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Jewelery & Gemstones</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Telecommunications Products</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Business Serivces</a>
+                        </div>
+                    </div>
+                    <div class="row m-2 p-2">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Event Management</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Fabricators & Fabrication Services</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Coaching Classes</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Placement Services</a>
+                        </div>
+                    </div>
+                    <div class="row m-2 p-2">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Website Designing</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Real Estate Service</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Ticket Booking Service</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Taxi Srevice</a>
+                        </div>
+                    </div>
+                    <div class="row m-2 p-2">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">SEO Service</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Transportation Service</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Recuirtment Srevice</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Event MAnagement Service</a>
+                        </div>
+                    </div>
+                    <div class="row m-2 p-2">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Auditing Service</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Web Solutions</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">Moblie Application Development</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="card p-5 m-2"href="#">IT services</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="m-2 ms-sm-5" style="color:#fff">
+            <div class="row m-5">
+                <div class="col-lg-3 col-sm-6 g-1">
+                    <h2 style="text-decoration:underline;">Ask Me</h2>
+                    <p>Askme will provide the most exhaustive and rich information to its audience. Askme will stay close to all its users by launching new and innovative search channels.
+                        Askme Pages strives to become the ultimate and top-of-mind search tool for consumers and businesses looking for market information. </p>
+                </div>
+                <div class="col-lg-3 col-sm-6 g-1 text-lg-center">
+                    <h2 style="text-decoration:underline;">Newsletter</h2>
+                    <label>Enter your E-mail Address</label>
+                    <input class="bordered border-light rounded shadow m-2" type="email" id="email"
+                        placeholder="Mail ID" style="background:transparent;color:#fff" required><br>
+                    <button class="btn btn-secondary m-2" for="email" type="button">Subscribe</button>
+                </div>
+                <div class="col-lg-3 col-sm-6 g-1 mb-sm-3">
+                    <ul style="list-style-type: none;">
+                        <li><a href="#" style="text-decoration:none;color:#fff">About Us</a></li>
+                        <li><a href="#" style="text-decoration:none;color:#fff">Terms & Conditions</a></li>
+                        <li><a href="#" style="text-decoration:none;color:#fff">Our Services</a></li>
+                        <li><a href="#" style="text-decoration:none;color:#fff">Company</a></li>
+                        <li><a href="#" style="text-decoration:none;color:#fff">FAQs</a></li>
+                        <li><a href="#" style="text-decoration:none;color:#fff">Privacy Policy</a></li>
+                        <li><a href="#" style="text-decoration:none;color:#fff">Advertise With Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6 g-1 mt-sm-3 text-lg-center">
+                    <h2 style="text-decoration:underline;">Have Questions?</h2>
+                    <h5>+91 0000-000-000</h5>
+                    <a style="text-decoration:none;color:#fff"href = "mailto:prakashsrinivasan28@gmail.com?subject = Feedback&body = Message">
+                        prakashsrinivasan28@gmail.com
+                        </a>
+                    <p>24/7 Dedicated Customer Support</p>
+                </div>
+            </div>
+            <div class="row" style="text-align:center">
+                <p>© 2021 Askme.co.in. All rights reserved.</p>
+            </div>
+        </footer>
+
+
+    </div>
+</body>
+
+</html>
